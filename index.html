@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Rakesh Arkel's Portfolio - Web Developer and Software Engineer specializing in HTML, CSS, JS, PHP, and MySQL.">
+  <meta name="keywords"
+    content="Rakesh Arkel, Web Developer, Portfolio, HTML, CSS, JavaScript, PHP, MySQL, Software Engineer">
+  <title>Rakesh Arkel - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">↑</button>
+    <header>
+      <div class="logo">Rakesh Arkel</div>
+      <nav id="menu">
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#certifications">Certification</a></li>
+          <li><a href="hire me.html">Hire me</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle" id="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <img src="Images/DP.jpg" alt="Profile Photo">
+      </div>
+      <div>
+        <h1>Hello, I'm Rakesh...</h1>
+        <p>Passionate about crafting stunning digital experiences with clean, efficient code.</p>
+        <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact Me</button>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skills-icons">
+        <div class="skill-item">
+          <i class="fab fa-html5"></i>
+          <span>HTML</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-css3-alt"></i>
+          <span>CSS</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-php"></i>
+          <span>PHP</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-database"></i>
+          <span>MySQL</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-bootstrap"></i>
+          <span>Bootstrap</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-code"></i>
+          <span>C</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-laptop-code"></i>
+          <span>C++</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-java"></i>
+          <span>Java</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-hashtag"></i>
+          <span>C#</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>I-Login Computer Class Project</h3>
+          <p>A complete course management system for a computer training institute. Managed student records, fees, and
+            course assignments with an easy-to-use web dashboard.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Hotel Management Website</h3>
+          <p>A fully responsive hotel booking website designed with HTML, CSS, JavaScript, Bootstrap, and PHP backend to
+            manage rooms, reservations, and customer inquiries.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Certified Web Developer - I-Login Computer Class</li>
+        <li>Advanced Programming Certification - JG University</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea rows="5" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+
+    <footer>
+      <div style="text-align: center; margin-top: 30px;">
+        <a href="mailto:rakesharkel2005@gmail.com" style="margin: 0 15px; color: #00f5d4; font-size: 24px;"
+          title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/rakesharkel" target="_blank"
+          style="margin: 0 15px; color: #00f5d4; font-size: 24px;" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rakesh-arkel-1358712a5/" target="_blank"
+          style="margin: 0 15px; color: #00f5d4; font-size: 24px;" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/arkel.rakesh_01/" target="_blank"
+          style="margin: 0 15px; color: #00f5d4; font-size: 24px;" title="LinkedIn">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <p>&copy; 2025 Rakesh Arkel. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
