@@ -10,6 +10,7 @@
     content="Rakesh Arkel, Web Developer, Portfolio, HTML, CSS, JavaScript, PHP, MySQL, Software Engineer">
   <title>Rakesh Arkel - Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -22,6 +23,8 @@
       <nav id="menu">
         <ul id="nav-list">
           <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
           <li><a href="index.html#skills">Skills</a></li>
           <li><a href="index.html#projects">Projects</a></li>
           <li><a href="index.html#certifications">Certification</a></li>
@@ -46,46 +49,99 @@
       </div>
     </section>
 
+    <section id="about" class="about" data-aos="zoom-in-up">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Hello! I'm <strong>Rakesh Arkel</strong>, an Integrated M.Sc. student in Information Technology with a
+            specialization in Software Engineering at JG University. With a strong foundation in web development and
+            programming, I am passionate about crafting seamless digital experiences and solving real-world problems
+            through technology.</p>
+
+          <p>I bring over 3 years of hands-on teaching experience as a Junior and Senior Computer Trainer at I-Login
+            Computer Class, where I taught MS Office, Tally, DTP, C/C++, Web Design, and more. My journey has helped me
+            develop excellent communication and mentoring skills.</p>
+
+          <p>Currently seeking opportunities to contribute to impactful projects and gain corporate experience through
+            internships. I am motivated, quick to adapt, and eager to work in challenging environments where I can apply
+            and expand my technical expertise.</p>
+
+          <p><strong>Let's build something great together!</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience-section" data-aos="zoom-in-down">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <div class="timeline-content">
+            <h3>Senior Computer Trainer</h3>
+            <span class="timeline-date">2023 – Present</span>
+            <p>Taught DSA, C++, web development; mentored junior trainers; designed practical sessions focused on
+              real-world problem-solving.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <div class="timeline-content">
+            <h3>Junior Computer Trainer</h3>
+            <span class="timeline-date">2021 – 2023</span>
+            <p>Handled MS Office, Tally, DTP, C programming, and hardware training. Delivered interactive lessons to
+              improve understanding and engagement.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
     <section id="skills" class="skills">
       <h2>Skills</h2>
       <div class="skills-icons">
-        <div class="skill-item">
+        <div class="skill-item" data-aos="zoom-in">
           <i class="fab fa-html5"></i>
           <span>HTML</span>
         </div>
-        <div class="skill-item">
+        <div class="skill-item" data-aos="zoom-in">
           <i class="fab fa-css3-alt"></i>
           <span>CSS</span>
         </div>
-        <div class="skill-item">
+        <div class="skill-item" data-aos="zoom-in">
           <i class="fab fa-js"></i>
           <span>JavaScript</span>
         </div>
-        <div class="skill-item">
+        <div class="skill-item" data-aos="zoom-in">
           <i class="fab fa-php"></i>
           <span>PHP</span>
         </div>
-        <div class="skill-item">
+        <div class="skill-item" data-aos="zoom-in">
           <i class="fas fa-database"></i>
           <span>MySQL</span>
         </div>
-        <div class="skill-item">
+        <div class="skill-item" data-aos="zoom-in">
           <i class="fab fa-bootstrap"></i>
           <span>Bootstrap</span>
         </div>
-        <div class="skill-item">
+        <div class="skill-item" data-aos="zoom-in">
           <i class="fas fa-code"></i>
           <span>C</span>
         </div>
-        <div class="skill-item">
+        <div class="skill-item" data-aos="zoom-in">
           <i class="fas fa-laptop-code"></i>
           <span>C++</span>
         </div>
-        <div class="skill-item">
+        <div class="skill-item" data-aos="zoom-in">
           <i class="fab fa-java"></i>
           <span>Java</span>
         </div>
-        <div class="skill-item">
+        <div class="skill-item" data-aos="zoom-in">
           <i class="fas fa-hashtag"></i>
           <span>C#</span>
         </div>
@@ -95,13 +151,13 @@
     <section id="projects" class="projects">
       <h2>Projects</h2>
       <div class="projects-grid">
-        <div class="project-card">
+        <div class="project-card" data-aos="fade-right">
           <h3>I-Login Computer Class Project</h3>
           <p>A complete course management system for a computer training institute. Managed student records, fees, and
             course assignments with an easy-to-use web dashboard.</p>
           <a href="#" target="_blank">View Project</a>
         </div>
-        <div class="project-card">
+        <div class="project-card" data-aos="fade-left">
           <h3>Hotel Management Website</h3>
           <p>A fully responsive hotel booking website designed with HTML, CSS, JavaScript, Bootstrap, and PHP backend to
             manage rooms, reservations, and customer inquiries.</p>
@@ -113,12 +169,12 @@
     <section id="certifications" class="certifications">
       <h2>Certifications</h2>
       <ul>
-        <li>Certified Web Developer - I-Login Computer Class</li>
-        <li>Advanced Programming Certification - JG University</li>
+        <li data-aos="fade-down">Certified Web Developer - I-Login Computer Class</li>
+        <li data-aos="fade-down">Advanced Programming Certification - JG University</li>
       </ul>
     </section>
 
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" data-aos="zoom-in-up">
       <h2>Contact</h2>
       <form action="#" method="post">
         <input type="text" name="name" placeholder="Your Name" required>
@@ -154,6 +210,13 @@
   </div>
 
   <script src="assets/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
 </body>
 
 </html>
