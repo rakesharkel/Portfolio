@@ -5,7 +5,7 @@ A personal portfolio website showcasing my skills, projects, and experience as a
 
 Welcome to my personal portfolio website! This project showcases who I am, the work I've done, the skills I possess, and the services I offer. Built using modern web technologies, the site is designed to be clean, responsive, and user-friendly.
 
-📌 **[Live Demo](your-portfolio-link)**  
+📌 **[Live Demo](https://rakesharkel.github.io/Portfolio/)**  
 📧 Contact: [rakesharkel2005@gmail.com](mailto:rakesharkel2005@gmail.com)
 
 ---
